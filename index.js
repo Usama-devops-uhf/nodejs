@@ -7,6 +7,7 @@ const server = http.createServer((req, res) => {
   const msg1 = 'this is my second  build!\n'
   res.end(msg1);
   res.end(msg);
+  console.log(msg1);
 });
 
 server.listen(port, () => {
